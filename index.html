@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proplayers de LoL en Corea del Sur - Embajadores Culturales</title>
+    <meta name="description" content="Descubre cómo los proplayers coreanos de League of Legends se han convertido en embajadores culturales modernos y líderes mundiales en eSports">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Skip link para accesibilidad -->
+    <a href="#main-content" class="skip-link">Ir al contenido principal</a>
+
+    <!-- HEADER CON NAVEGACIÓN -->
+    <header>
+       <nav role="navigation" aria-label="Navegación principal">
+    <a href="index.html" class="logo" aria-label="Inicio - LoL Corea">LoL Korea</a>
+    
+    <button class="hamburger" id="hamburger" aria-label="Menú de navegación" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+    </button>
+    
+    <ul class="nav-links" id="nav-links">
+        <!-- Menú desplegable 1: Competitivo -->
+        <li class="dropdown" data-dropdown="competitivo">
+            <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                Competitivo 
+                <span class="dropdown-arrow">▼</span>
+            </a>
+            <ul class="dropdown-menu" aria-label="Submenú Competitivo">
+                <li><a href="#historia">📜 Historia LCK</a></li>
+                <li><a href="#proplayers">⭐ Proplayers</a></li>
+                 <li><a href="#equipos">🏆 Equipos Legendarios</a></li>
+            </ul>
+        </li>
+        
+        <!-- Menú desplegable 2: Cultura -->
+        <li class="dropdown" data-dropdown="cultura">
+            <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                Cultura eSports
+                <span class="dropdown-arrow">▼</span>
+            </a>
+            <ul class="dropdown-menu" aria-label="Submenú Cultura">
+                <li><a href="#cultura">🎮 Cultura Gamer</a></li>
+                <li><a href="#impacto">🌍 Impacto Global</a></li>
+            </ul>
+        </li>
+        
+        <!-- Menú desplegable 3: Recursos Externos -->
+        <li class="dropdown" data-dropdown="recursos">
+            <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                Recursos
+                <span class="dropdown-arrow">▼</span>
+            </a>
+            <ul class="dropdown-menu" aria-label="Submenú Recursos">
+                <li><a href="https://www.youtube.com/@LCK" target="_blank" rel="noopener">📺 YouTube LCK</a></li>
+                <li><a href="https://www.twitch.tv/lck" target="_blank" rel="noopener">🎬 Twitch LCK</a></li>
+                <li><a href="https://www.leagueoflegends.com/ko-kr/" target="_blank" rel="noopener">🎮 LoL Korea</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <main id="main-content">
+        <section class="hero" role="banner">
+            <div class="hero-content">
+                <h1>Proplayers de LoL en Corea del Sur</h1>
+                <p>Descubre cómo los jugadores profesionales coreanos se han convertido en embajadores culturales modernos, liderando la escena mundial de los eSports</p>
+                <a href="#historia" class="cta-button">Explorar la Historia</a>
+            </div>
+        </section>
+
+        <!-- MENSAJE DE BIENVENIDA DINÁMICO -->
+<section class="welcome-section fade-in" aria-labelledby="welcome-title">
+    <div class="welcome-container">
+        <div class="welcome-content">
+            <!-- Saludo según hora del día -->
+            <h2 id="welcome-title" class="welcome-greeting">
+                <span id="greeting-text">¡Bienvenido!</span>
+            </h2>
+            
+            <!-- Nombre personalizado (opcional) -->
+            <div class="welcome-personalized">
+                <p id="welcome-message" class="welcome-subtitle">
+                    Explora el mundo de los eSports en Corea del Sur
+                </p>
+            </div>
+            
+            <!-- Información adicional dinámica -->
+            <div class="welcome-info">
+                <p id="current-time" class="time-display"></p>
+                <div class="language-selector">
+                    <button class="lang-btn active" onclick="changeLanguage('es')" aria-label="Cambiar a español">
+                        🇪🇸 ES
+                    </button>
+                    <button class="lang-btn" onclick="changeLanguage('en')" aria-label="Change to English">
+                        🇺🇸 EN
+                    </button>
+                    <button class="lang-btn" onclick="changeLanguage('kr')" aria-label="한국어로 변경">
+                        🇰🇷 KR
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Icono decorativo animado -->
+        <div class="welcome-icon">
+            <span class="icon-emoji" id="time-icon">🌟</span>
+        </div>
+    </div>
+</section>
+
+        <!-- INTRODUCCIÓN -->
+        <section class="section fade-in">
+            <h2>Corea del Sur: Cuna de los eSports</h2>
+            <div class="intro-content">
+                <p>
+                    Corea del Sur ha establecido el estándar mundial en los deportes electrónicos, 
+                    especialmente en League of Legends. Los proplayers coreanos no solo dominan 
+                    las competencias, sino que han trascendido el gaming para convertirse en 
+                    íconos culturales que representan la excelencia, la disciplina y la innovación.
+                </p>
+                <p>
+                    Desde la creación de la LCK hasta la exportación de talento a todo el mundo, 
+                    Corea del Sur ha demostrado que los eSports pueden ser una forma legítima de 
+                    expresión cultural y profesional.
+                </p>
+            </div>
+        </section>
+
+        <!-- ESTADÍSTICAS DESTACADAS -->
+        <section class="section fade-in">
+            <h2>Números que Impresionan</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Títulos Mundiales</div>
+                    <p>Equipos coreanos han ganado la mayoría de campeonatos mundiales de LoL</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Proplayers Exportados</div>
+                    <p>Jugadores coreanos compiten en ligas de todo el mundo</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100M+</div>
+                    <div class="stat-label">Espectadores Globales</div>
+                    <p>Audiencia mundial que sigue los eSports coreanos</p>
+                </div>
+            </div>
+        </section>
+
+   <!-- SLIDER DE IMÁGENES - DESTACADOS -->
+<section class="section fade-in slider-section" aria-labelledby="slider-title">
+    <h2 id="slider-title">Momentos Destacados</h2>
+    <p style="text-align: center; margin-bottom: 2rem;">
+        Imágenes icónicas de la escena competitiva de League of Legends en Corea
+    </p>
+    
+    <div class="slider-container">
+        <!-- Slides -->
+        <div class="slider-wrapper">
+            <div class="slide active">
+                <img src="images/slider/fakersexta.jpg" alt="Faker levantando el trofeo del mundial">
+                <div class="slide-caption">
+                    <h3>Faker - Hexacampeón Mundial</h3>
+                    <p>El momento más icónico: Faker levanta su sexto trofeo mundial</p>
+                </div>
+            </div>
+            
+            <div class="slide">
+                <img src="images/slider/LOLPARK.jpg" alt="Estadio LoL Park lleno de espectadores">
+                <div class="slide-caption">
+                    <h3>LoL Park - Casa de los Campeones</h3>
+                    <p>El estadio dedicado exclusivamente a League of Legends en Seúl</p>
+                </div>
+            </div>
+            
+            <div class="slide">
+                <img src="images/slider/T1DINASTY.jpg" alt="Equipo T1 celebrando victoria">
+                <div class="slide-caption">
+                    <h3>T1 - La Dinastía</h3>
+                    <p>El equipo más exitoso en la historia de los Esports</p>
+                </div>
+            </div>
+            
+            <div class="slide">
+                <img src="images/slider/CEREMONY2023.jpg" alt="Ceremonia de apertura de Worlds en Corea 2023">
+                <div class="slide-caption">
+                    <h3>Worlds en Corea</h3>
+                    <p>Ceremonia de apertura del campeonato mundial</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Controles de navegación -->
+        <button class="slider-btn prev" aria-label="Imagen anterior" onclick="changeSlide(-1)">
+            &#10094;
+        </button>
+        <button class="slider-btn next" aria-label="Siguiente imagen" onclick="changeSlide(1)">
+            &#10095;
+        </button>
+        
+        <!-- Indicadores (dots) -->
+        <div class="slider-dots">
+            <span class="dot active" onclick="goToSlide(0)" aria-label="Ir a slide 1"></span>
+            <span class="dot" onclick="goToSlide(1)" aria-label="Ir a slide 2"></span>
+            <span class="dot" onclick="goToSlide(2)" aria-label="Ir a slide 3"></span>
+            <span class="dot" onclick="goToSlide(3)" aria-label="Ir a slide 4"></span>
+        </div>
+    </div>
+</section>
+
+        <!-- HISTORIA DE LA LCK -->
+        <section id="historia" class="section fade-in">
+            <h2>Historia de la LCK</h2>
+            <p style="text-align: center; margin-bottom: 2rem; font-size: 1.1rem;">
+                La Liga de Campeones de Corea (LCK) ha sido el epicentro del desarrollo competitivo de League of Legends desde sus inicios.
+            </p>
+            
+            <div class="historia-grid">
+                <article class="historia-card">
+                    <h3>Inicios (2012-2014)</h3>
+                    <p>Corea del Sur establece las bases de la competencia profesional con la creación de las primeras ligas organizadas. Los equipos coreanos comienzan a dominar torneos internacionales.</p>
+                </article>
+                
+                <article class="historia-card">
+                    <h3>Era Dorada (2015-2017)</h3>
+                    <p>Consolidación de la supremacía coreana con múltiples victorias consecutivas en Worlds. Jugadores como Faker se convierten en leyendas globales.</p>
+                </article>
+                
+                <article class="historia-card">
+                    <h3>Evolución Moderna (2018-Presente)</h3>
+                    <p>Adaptación a nuevas metas y exportación de talento. Los proplayers coreanos influyen en ligas de todo el mundo manteniendo su liderazgo competitivo.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- PROPLAYERS DESTACADOS -->
+        <section id="proplayers" class="section fade-in">
+            <h2>Proplayers Icónicos</h2>
+            <p style="text-align: center; margin-bottom: 2rem; font-size: 1.1rem;">
+                Jugadores que han trascendido el gaming para convertirse en íconos culturales globales.
+            </p>
+            
+            <div class="players-grid">
+                <article class="player-card">
+                    <div class="player-image">
+    <img src="images/players/faker.jpg" alt="Lee Faker Sang-hyeok jugando League of Legends">
+</div>
+                    <div class="player-info">
+                        <h3>Lee "Faker" Sang-hyeok</h3>
+                        <p class="team">T1</p>
+                        <p>Considerado el mejor jugador de LoL de todos los tiempos. Múltiple campeón mundial y símbolo de la excelencia competitiva coreana.</p>
+                    </div>
+                </article>
+                
+                <article class="player-card">
+                    <div class="player-image">
+    <img src="images/players/canyon.jpeg" alt="Kim Canyon Geon-bu en competencia">
+</div>
+                    <div class="player-info">
+                        <h3>Kim "Canyon" Geon-bu</h3>
+                        <p class="team">GENG</p>
+                        <p>Jungla revolucionario que llevó a DAMWON al título mundial en 2020, redefiniendo el rol en el meta competitivo.</p>
+                    </div>
+                </article>
+                
+                <article class="player-card">
+                    <div class="player-image">
+    <img src="images/players/showmaker.jpg" alt="Heo Showmaker Su jugando LoL">
+</div>
+                    <div class="player-info">
+                        <h3>Heo "Showmaker" Su</h3>
+                        <p class="team">DPLUS KIA</p>
+                        <p>Mid laner excepcional conocido por su mecánica perfecta y decisiones clutch en momentos críticos.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- EQUIPOS EMBLEMÁTICOS -->
+        <section id="equipos" class="section fade-in">
+            <h2>Equipos Emblemáticos</h2>
+            <p style="text-align: center; margin-bottom: 2rem; font-size: 1.1rem;">
+                Organizaciones que han definido la excelencia competitiva en los eSports globales.
+            </p>
+            
+            <div class="teams-grid">
+                <article class="team-card">
+                    <div class="team-logo">
+    <img src="images/teams/t1-logo.png" alt="Logo del equipo T1">
+</div>
+                    <h3>T1</h3>
+                    <p>La organización más exitosa en la historia de LoL, hogar de Faker y múltiples campeones mundiales. Sinónimo de tradición y excelencia.</p>
+                    <p><strong>Logros:</strong> 5 títulos mundiales, múltiples MSI</p>
+                </article>
+                
+                <article class="team-card">
+                    <div class="team-logo">
+    <img src="images/teams/geng-logo.jpg" alt="Logo del equipo Gen.G">
+</div>
+                    <h3>Gen.G</h3>
+                    <p>Organización moderna que combina tradición competitiva con innovación. Campeones mundiales 2017 (como Samsung Galaxy).</p>
+                    <p><strong>Logros:</strong> 1 título mundial, 2 MSI, múltiples finales</p>
+                </article>
+                
+                <article class="team-card">
+                    <div class="team-logo">
+    <img src="images/teams/drx-logo.jpg" alt="Logo del equipo DRX">
+</div>
+                    <h3>DRX</h3>
+                    <p>Equipo conocido por su capacidad de superar adversidades y crear historias épicas en torneos internacionales.</p>
+                    <p><strong>Logros:</strong> 1 título mundial (2022), múltiples playoffs</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- CULTURA GAMER COREANA -->
+        <section id="cultura" class="section fade-in">
+            <h2>Cultura Gamer Coreana</h2>
+            <p style="text-align: center; margin-bottom: 2rem; font-size: 1.1rem;">
+                Elementos distintivos que hacen única la escena de eSports en Corea del Sur.
+            </p>
+            
+            <div class="cultura-features">
+                <article class="feature-item">
+                    <div class="feature-icon">🏟️</div>
+                    <h3>LoL Park</h3>
+                    <p>Estadio dedicado exclusivamente a League of Legends en Seúl, símbolo de la profesionalización de los eSports.</p>
+                </article>
+                
+                <article class="feature-item">
+                    <div class="feature-icon">📺</div>
+                    <h3>Transmisiones Masivas</h3>
+                    <p>Coverage televisivo y streaming que rivalizan con deportes tradicionales, con millones de espectadores.</p>
+                </article>
+                
+                <article class="feature-item">
+                    <div class="feature-icon">🎓</div>
+                    <h3>Academias de Gaming</h3>
+                    <p>Instituciones formales de entrenamiento que han profesionalizado el desarrollo de talentos.</p>
+                </article>
+                
+                <article class="feature-item">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Exportación de Talento</h3>
+                    <p>Jugadores y entrenadores coreanos lideran equipos en regiones de todo el mundo.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- IMPACTO GLOBAL -->
+        <section id="impacto" class="section fade-in">
+            <h2>Impacto Global</h2>
+            <div class="impact-content">
+                <p style="font-size: 1.2rem; margin-bottom: 1rem;">
+                    Los proplayers coreanos han transformado League of Legends de un videojuego a un fenómeno cultural global:
+                </p>
+                <ul class="impact-list">
+                    <li>Establecimiento de estándares competitivos mundiales</li>
+                    <li>Influencia en el desarrollo del meta de juego global</li>
+                    <li>Creación de una industria de entretenimiento multimillonaria</li>
+                    <li>Promoción de Corea del Sur como destino de turismo digital</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#historia">Historia LCK</a>
+                <a href="#proplayers">Proplayers</a>
+                <a href="#equipos">Equipos</a>
+                <a href="#cultura">Cultura</a>
+                <a href="#impacto">Impacto Global</a>
+            </div>
+            <p>&copy; 2025 - Luis Angel Obando Palechor - Universidad Nacional Abierta y a Distancia (UNAD)</p>
+            <p>Proyecto sobre la cultura de eSports en Corea del Sur</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
